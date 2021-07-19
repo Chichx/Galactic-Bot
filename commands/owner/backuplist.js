@@ -3,9 +3,9 @@ const config = require("../../config.json");
 
 module.exports = {
     name: 'backuplist',
-    description: 'Backuplist command',
-    usage: '',
-    cooldown: 5,
+    description: 'Unban command',
+    usage:  '',
+    cooldown: 10,
     guildOnly: true,
     async execute(client, message, args) {
 
